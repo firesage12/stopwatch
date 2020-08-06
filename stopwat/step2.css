@@ -1,0 +1,53 @@
+@keyframes Move {
+    0% {
+        transform: scale(o.2);
+        opacity: 0.4;
+    }
+    60% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    animation: Move 2s;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    
+}
+nav button{
+    padding: 30px;
+    font-size: 25px;
+    background-color: transparent;
+    color: black;
+
+}
+nav button:hover {
+    color: orangered;
+    animation: Move 2s;
+}
+#stopwatch {
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+ul{
+    justify-content: center;
+}
+#laps {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+}
+body {
+     background-image: linear-gradient(white,black)
+}
